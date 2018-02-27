@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Ogury Cordova",
+  "short_name": "Ogury Cordova",
+  "version": "io.cordova.ogurycordova",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "author": "Ogury Tech Ops Team",
+  "icons": [],
+  "start_url": "index.html"
+}
