@@ -21,7 +21,7 @@ Before using any projects, go to your account on the [Admin Ogury Website] (http
 
 ### Cordova
 
-* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Cordova/cordovaApps)
+* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Cordova/cordovaApp)
 
 ### Ionic
 
