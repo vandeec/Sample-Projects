@@ -1,6 +1,6 @@
 ## Get Started
 
-Before using any projects, go to your account on the [Admin Ogury Website] (https://admin.ogury.co) and get your api_key related to your app.
+Before using any projects, go to your account on the [Admin Ogury Website](https://admin.ogury.co) and get your api_key related to your app.
 
 ## Instructions
 
