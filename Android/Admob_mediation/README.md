@@ -1,13 +1,10 @@
 ## Get Started
 
-Before using any projects, go to your account on the [Admin Ogury Website] (https://admin.ogury.co) and get your api_key related to your app.
+Before using any projects, go to your account on the [Admin Ogury Website](https://admin.ogury.co) and get your api_key related to your app.
 
 ## Instructions
 
-### Android
-
 #### [Ogury integration with Admob Mediation](https://github.com/Ogury/Sample-Projects/tree/master/Android/Admob_mediation)
-
 * Change your Api_key in the `AndroidManifest.xml` [here](https://github.com/Ogury/Sample-Projects/tree/master/Android/Admob_mediation/app/src/main/AndroidManifest.xml#L26)
 * Change your Admob app_id in the `MainActivity` [here](https://github.com/Ogury/Sample-Projects/blob/master/Android/Admob_mediation/app/src/main/java/com/example/vdeub/myadmobmediation/MainActivity.java#L35)
 * Change your Admob Interstitial ad_unit in the `MainActivity` [here](https://github.com/Ogury/Sample-Projects/blob/master/Android/Admob_mediation/app/src/main/java/com/example/vdeub/myadmobmediation/MainActivity.java#L38)
