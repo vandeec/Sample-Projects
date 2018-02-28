@@ -1,13 +1,10 @@
 ## Get Started
 
-Before using any projects, go to your account on the [Admin Ogury Website] (https://admin.ogury.co) and get your api_key related to your app.
+Before using any projects, go to your account on the [Admin Ogury Website](https://admin.ogury.co) and get your api_key related to your app.
 
 ## Instructions
 
-### Android
-
 #### [Ogury integration with MoPub Mediation](https://github.com/Ogury/Sample-Projects/tree/master/Android/MoPub_mediation)
-
 * Change your Api_key in the `AndroidManifest.xml` [here](https://github.com/Ogury/Sample-Projects/tree/master/Android/MoPub_mediation/app/src/main/AndroidManifest.xml#L29)
 * Change your Admob Interstitial ad_unit in the `MainActivity` [here](https://github.com/Ogury/Sample-Projects/blob/master/Android/MoPub_mediation/app/src/main/java/com/example/vdeub/mymopubmediation/MainActivity.java#L34)
 * On your Mopub Dashboard, add a new custom native network for your Interstitial ad_unit.

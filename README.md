@@ -4,7 +4,7 @@ This repository contains several examples of Ogury SDK integration.
 
 ## Get Started
 
-Before using any projects, go to your account on the [Admin Ogury Website] (https://admin.ogury.co) and get your api_key related to your app.
+Before using any projects, go to your account on the [Admin Ogury Website](https://admin.ogury.co) and get your api_key related to your app.
 
 ## Examples
 
@@ -21,11 +21,11 @@ Before using any projects, go to your account on the [Admin Ogury Website] (http
 
 ### Cordova
 
-* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Cordova/cordovaApps)
+* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Cordova)
 
 ### Ionic
 
-* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Ionic/ionicApp)
+* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Ionic)
 
 
 ## Documentation

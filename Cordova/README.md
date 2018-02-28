@@ -1,12 +1,10 @@
 ## Get Started
 
-Before using any projects, go to your account on the [Admin Ogury Website] (https://admin.ogury.co) and get your api_key related to your app.
+Before using any projects, go to your account on the [Admin Ogury Website](https://admin.ogury.co) and get your api_key related to your app.
 
 ## Instructions
 
-### Cordova
-
-* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Cordova/cordovaApps)
+#### [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Cordova)
 * Change your Api_key in the `AndroidManifest.xml` [here]
 https://github.com/Ogury/Sample-Projects/blob/master/Cordova/cordovaApp/platforms/android/AndroidManifest.xml#L13
 
