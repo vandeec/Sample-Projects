@@ -4,11 +4,11 @@ Before using any projects, go to your account on the [Admin Ogury Website] (http
 
 ## Instructions
 
-### Cordova
+### Android
 
-* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Cordova/cordovaApps)
-* Change your Api_key in the `AndroidManifest.xml` [here]
-https://github.com/Ogury/Sample-Projects/blob/master/Cordova/cordovaApp/platforms/android/AndroidManifest.xml#L13
+#### [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Android/MyApplication)
+* Change your Api_key in the `AndroidManifest.xml` [here](https://github.com/Ogury/Sample-Projects/tree/master/Android/MyApplication/app/src/main/AndroidManifest.xml#L25)
+* Build your app
 
 ## Documentation
 
