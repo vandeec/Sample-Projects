@@ -21,11 +21,11 @@ Before using any projects, go to your account on the [Admin Ogury Website](https
 
 ### Cordova
 
-* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Cordova/cordovaApp)
+* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Cordova)
 
 ### Ionic
 
-* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Ionic/ionicApp)
+* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Ionic)
 
 
 ## Documentation
