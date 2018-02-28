@@ -15,4 +15,3 @@ Check out the [Ogury website](https://admin.ogury.co) for documentation on using
 ## GitHub issue tracker
 
 For any request regarding this repository or for integration issues, please contact techsupport@ogury.co.
-
