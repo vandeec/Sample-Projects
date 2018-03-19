@@ -13,6 +13,7 @@ Before using any projects, go to your account on the [Admin Ogury Website](https
 * [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Android/MyApplication)
 * [Ogury integration with Admob Mediation](https://github.com/Ogury/Sample-Projects/tree/master/Android/Admob_mediation)
 * [Ogury integration with MoPub Mediation](https://github.com/Ogury/Sample-Projects/tree/master/Android/MoPub_mediation)
+* [Ogury integration with Smart Ad Server](https://github.com/Ogury/Sample-Projects/tree/master/Android/Smart_ad_server)
 
 ### Unity
 
