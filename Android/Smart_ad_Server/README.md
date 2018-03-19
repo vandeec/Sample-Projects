@@ -5,8 +5,8 @@ Before using this project, please follow the Smart Ad Server documentation avail
 ## Instructions
 
 #### [Ogury integration with Smart Ad Server](https://github.com/Ogury/Sample-Projects/tree/master/Android/Smart_ad_Server)
-* Change your Api_key in the `AndroidManifest.xml`
-* Use your Smart Ad Server parameters in the `MainActivity` class in order to request ads
+* Change your Api_key in the `AndroidManifest.xml` [here](https://github.com/Ogury/Sample-Projects/blob/master/Android/Smart_ad_Server/app/src/main/AndroidManifest.xml#L25).
+* Use your Smart Ad Server parameters in the `MainActivity` class in order to request ads [here](https://github.com/Ogury/Sample-Projects/blob/master/Android/Smart_ad_Server/app/src/main/java/com/example/vdeub/myapplication/MainActivity.java#L41).
 * Build your app
 
 ## Documentation
