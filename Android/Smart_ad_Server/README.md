@@ -1,6 +1,6 @@
 ## Get Started
 
-Before using this project, please follow the Smart Ad Server documentation available [here](http://help.smartadserver.com/Android/V6.7/#Mediation/AdMediationOgury.htm).
+Before using this project, please follow the Smart Ad Server documentation available [here](http://help.smartadserver.com/Android/V6.8/#Mediation/AdMediationOgury.htm).
 
 ## Instructions
 
@@ -11,7 +11,7 @@ Before using this project, please follow the Smart Ad Server documentation avail
 
 ## Documentation
 
-Check out the [Smart Ad Server website](http://help.smartadserver.com/Android/V6.7/#Mediation/AdMediationOgury.htm) for documentation on using Ogury through Smart Ad Server.
+Check out the [Smart Ad Server website](http://help.smartadserver.com/Android/V6.8/#Mediation/AdMediationOgury.htm) for documentation on using Ogury through Smart Ad Server.
 
 ## GitHub issue tracker
 
