@@ -37,3 +37,11 @@ Check out the [Ogury website](https://admin.ogury.co) for documentation on using
 
 For any request regarding this repository or for integration issues, please contact techsupport@ogury.co.
 
+## Release Notes
+
+### SDK v3
+- Master has now the SDK 3
+
+### SDK v2
+- Branch Creation for sdk_v2
+
