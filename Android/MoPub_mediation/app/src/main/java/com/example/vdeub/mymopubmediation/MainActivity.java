@@ -31,11 +31,10 @@ public class MainActivity extends AppCompatActivity implements MoPubInterstitial
             WebView.setWebContentsDebuggingEnabled(true);
         }
         // Set your Mopub Interstitial Ad unit here
-        mInterstitialAd = new MoPubInterstitial(this, "4c88ef058d744b2480ac54e1b8c4fa02");
+        mInterstitialAd = new MoPubInterstitial(this, "1c72da79c32945de8bce05ecdbdd1527");
         mInterstitialAd.setInterstitialAdListener(this);
 
-        Presage.getInstance().setContext(this.getBaseContext());
-        Presage.getInstance().start();
+        Presage.getInstance().start("270413", this);
 
 
         final Button bt_load = (Button) findViewById(R.id.bt_load);

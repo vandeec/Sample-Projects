@@ -5,20 +5,18 @@ Before using any projects, go to your account on the [Admin Ogury Website](https
 ## Instructions
 
 #### [Ogury integration with MoPub Mediation](https://github.com/Ogury/Sample-Projects/tree/master/Android/MoPub_mediation)
-* Change your Api_key in the `AndroidManifest.xml` [here](https://github.com/Ogury/Sample-Projects/tree/master/Android/MoPub_mediation/app/src/main/AndroidManifest.xml#L29)
+* Change your app_api_key in the `MainActivity` [here](https://github.com/Ogury/Sample-Projects/blob/master/Android/MoPub_mediation/app/src/main/java/com/example/vdeub/mymopubmediation/MainActivity.java#L37)
 * Change your MoPub Interstitial ad_unit in the `MainActivity` [here](https://github.com/Ogury/Sample-Projects/blob/master/Android/MoPub_mediation/app/src/main/java/com/example/vdeub/mymopubmediation/MainActivity.java#L34)
 * On your Mopub Dashboard, add a new custom native network for your Interstitial ad_unit.
-	* in Class set `com.example.vdeub.mymopubmediation.PresageMoPubEventInterstitial`
+	* in Class set `com.mopub.PresageMoPubEventInterstitial`
 	* in Data set your Interstitial ad_unit from Ogury dashboard [optional]
-
-	![alt text](https://s3-eu-west-1.amazonaws.com/ogury-cdn/Loicvdb-Github/mopub_interstitial.png)
 	
 * Change your MoPub Rewarded Video ad_unit in the `ActivityOptinVideo` [here](https://github.com/Ogury/Sample-Projects/blob/master/Android/MoPub_mediation/app/src/main/java/com/example/vdeub/mymopubmediation/ActivityOptinVideo.java#L115) and [here](https://github.com/Ogury/Sample-Projects/blob/master/Android/MoPub_mediation/app/src/main/java/com/example/vdeub/mymopubmediation/ActivityOptinVideo.java#L108)
 * On your MoPub Dashboard, add a new custom event for your Rewarded Video ad_unit.
-	* in Class set `com.example.vdeub.mymopubmediation.PresageMoPubEventOptinVideo`
-	* in Data set your Interstitial ad_unit from Ogury dashboard [required]
+	* in Class set `com.mopub.PresageMoPubEventOptinVideo`
+	* in Data set your Rewarded. ideo ad_unit from Ogury dashboard [required]
 
-	![alt text](https://s3-eu-west-1.amazonaws.com/ogury-cdn/Loicvdb-Github/mopub_rewarded_video.png)
+	![alt text](https://s3-eu-west-1.amazonaws.com/ogury-cdn/Loicvdb-Github/mopub3.png)
 
 ## Documentation
 

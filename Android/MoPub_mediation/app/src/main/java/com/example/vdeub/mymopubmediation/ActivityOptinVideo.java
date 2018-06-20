@@ -105,14 +105,14 @@ public class ActivityOptinVideo extends AppCompatActivity  {
         bt_show.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Set your Mopub Rewarded Video Ad unit here
-                MoPubRewardedVideos.showRewardedVideo("b127f5acf3ea41fcaf741d2fec0a2658");
+                MoPubRewardedVideos.showRewardedVideo("882144e4b0bd422c905263e5cbb971a0");
             }
         });
     }
 
     private void loadRewardedVideoAd() {
         // Set your Mopub Rewarded Video Ad unit here
-        MoPubRewardedVideos.loadRewardedVideo("b127f5acf3ea41fcaf741d2fec0a2658");
+        MoPubRewardedVideos.loadRewardedVideo("882144e4b0bd422c905263e5cbb971a0");
     }
 
     @Override

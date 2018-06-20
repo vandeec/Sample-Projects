@@ -23,7 +23,7 @@
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:layout_weight="1"
-        android:text="Can show"
+        android:text="Is Interstitial Loaded"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
