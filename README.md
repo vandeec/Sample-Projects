@@ -10,23 +10,23 @@ Before using any projects, go to your account on the [Admin Ogury Website](https
 
 ### Android
 
-* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Android/MyApplication)
-* [Ogury integration with Admob Mediation](https://github.com/Ogury/Sample-Projects/tree/master/Android/Admob_mediation)
-* [Ogury integration with MoPub Mediation](https://github.com/Ogury/Sample-Projects/tree/master/Android/MoPub_mediation)
-* [Ogury integration with Smart Ad Server](https://github.com/Ogury/Sample-Projects/tree/master/Android/Smart_ad_Server)
+* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/sdk_v2/Android/MyApplication)
+* [Ogury integration with Admob Mediation](https://github.com/Ogury/Sample-Projects/tree/sdk_v2/Android/Admob_mediation)
+* [Ogury integration with MoPub Mediation](https://github.com/Ogury/Sample-Projects/tree/sdk_v2/Android/MoPub_mediation)
+* [Ogury integration with Smart Ad Server](https://github.com/Ogury/Sample-Projects/tree/sdk_v2/Android/Smart_ad_Server)
 
 ### Unity
 
-* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Unity/UnityOgury)
-* [Ogury integration with Admob Mediation](https://github.com/Ogury/Sample-Projects/tree/master/Unity/UnityAdmobMediation)
+* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/sdk_v2/Unity/UnityOgury)
+* [Ogury integration with Admob Mediation](https://github.com/Ogury/Sample-Projects/tree/sdk_v2/Unity/UnityAdmobMediation)
 
 ### Cordova
 
-* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Cordova)
+* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/sdk_v2/Cordova)
 
 ### Ionic
 
-* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Ionic)
+* [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/sdk_v2/Ionic)
 
 
 ## Documentation
@@ -36,4 +36,5 @@ Check out the [Ogury website](https://admin.ogury.co) for documentation on using
 ## GitHub issue tracker
 
 For any request regarding this repository or for integration issues, please contact techsupport@ogury.co.
+
 
