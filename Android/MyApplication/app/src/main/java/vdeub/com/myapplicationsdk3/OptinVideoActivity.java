@@ -8,11 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import io.presage.Presage;
 import io.presage.common.AdConfig;
 import io.presage.common.network.models.RewardItem;
-import io.presage.interstitial.PresageInterstitial;
-import io.presage.interstitial.PresageInterstitialCallback;
 import io.presage.interstitial.optinvideo.PresageOptinVideo;
 import io.presage.interstitial.optinvideo.PresageOptinVideoCallback;
 

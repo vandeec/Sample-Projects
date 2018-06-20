@@ -20,6 +20,7 @@ import com.google.android.gms.ads.InterstitialAd;
 public class MainActivity extends AppCompatActivity {
 
     private InterstitialAd mInterstitialAd;
+    private String app_api_key = "270413";
 
 
     @Override
@@ -32,14 +33,13 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Set your Admob app id
-        MobileAds.initialize(this, "ca-app-pub-8953991002741575~2255976028");
+        MobileAds.initialize(this, "ca-app-pub-8953991002741575~4717844567");
         mInterstitialAd = new InterstitialAd(this);
         // Set your Admob Interstitial Ad unit here
-        mInterstitialAd.setAdUnitId("ca-app-pub-8953991002741575/4265571005");
+        mInterstitialAd.setAdUnitId("ca-app-pub-8953991002741575/9008443366");
 
         // Start Ogury SDK
-        Presage.getInstance().setContext(this.getBaseContext());
-        Presage.getInstance().start();
+        Presage.getInstance().start(app_api_key, this);
 
         final Button bt_load = (Button) findViewById(R.id.bt_load);
         final Button bt_canshow = (Button) findViewById(R.id.bt_canshow);

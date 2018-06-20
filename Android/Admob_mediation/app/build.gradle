@@ -1,12 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "26.0.2"
+    compileSdkVersion 27
     defaultConfig {
         applicationId "com.example.vdeub.myadmobmediation"
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -23,14 +22,18 @@ android {
     }
 }
 
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
 dependencies {
-    // compile fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    testCompile 'junit:junit:4.12'
-    compile files('libs/presage-lib-2.2.8-obfuscated.jar')
-    compile 'com.google.android.gms:play-services-ads:11.6.0'
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    implementation(name: 'presage-moat-3.0.18-3.0.12', ext: 'aar')
+    implementation(name: 'admobevents-3.0.18', ext: 'aar')
+    implementation 'com.google.android.gms:play-services-ads:15.0.0'
 }

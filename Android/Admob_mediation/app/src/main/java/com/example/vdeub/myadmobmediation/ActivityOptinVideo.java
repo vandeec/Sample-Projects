@@ -72,7 +72,7 @@ public class ActivityOptinVideo extends AppCompatActivity implements RewardedVid
 
     private void loadRewardedVideoAd() {
         // Set your Admob Rewarded Video Ad unit here
-        mInterstitialOptinVideo.loadAd("ca-app-pub-8953991002741575/7546286568",
+        mInterstitialOptinVideo.loadAd("ca-app-pub-8953991002741575/3784036845",
                 new AdRequest.Builder().build());
     }
 
@@ -97,6 +97,11 @@ public class ActivityOptinVideo extends AppCompatActivity implements RewardedVid
     @Override
     public void onRewardedVideoAdFailedToLoad(int errorCode) {
         Toast.makeText(this, "onRewardedVideoAdFailedToLoad", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onRewardedVideoCompleted() {
+        Toast.makeText(this, "onRewardedVideoAdCompleted", Toast.LENGTH_SHORT).show();
     }
 
     @Override
