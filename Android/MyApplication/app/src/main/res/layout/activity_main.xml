@@ -4,26 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.vdeub.myapplication.MainActivity">
+    tools:context="vdeub.com.myapplicationsdk3.MainActivity">
 
         <Button
             android:id="@+id/bt_load"
             android:layout_width="240dp"
             android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Load Ad"
+            android:text="Load Interstitial"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/bt_canshow"
+            app:layout_constraintBottom_toTopOf="@+id/bt_isLoaded"
             app:layout_constraintTop_toBottomOf="@+id/imageView"/>
 
         <Button
-            android:id="@+id/bt_canshow"
+            android:id="@+id/bt_isLoaded"
             android:layout_width="240dp"
             android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Can show"
+            android:text="Is Interstitial Loaded ? "
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
@@ -35,36 +35,25 @@
             android:layout_width="240dp"
             android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="Show Ad"
+            android:text="Show Interstitial"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bt_canshow"
-            app:layout_constraintBottom_toTopOf="@+id/bt_adtoserve" />
+            app:layout_constraintTop_toBottomOf="@+id/bt_isLoaded"
+            app:layout_constraintBottom_toTopOf="@+id/bt_newac" />
 
         <Button
-            android:id="@+id/bt_adtoserve"
+            android:id="@+id/bt_newac"
             android:layout_width="240dp"
             android:layout_height="50dp"
             android:layout_weight="1"
-            android:text="AdToServe"
+            android:text="Go to Optin Video Activity"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bt_show"
-             />
+            />
 
-
-        <!--<Button
-            android:id="@+id/bt_eula"
-            android:layout_width="240dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:text="Eula"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/bt_load"/>-->
 
         <ImageView
             android:id="@+id/imageView"

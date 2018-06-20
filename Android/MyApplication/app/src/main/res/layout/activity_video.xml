@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vdeub.com.myapplicationsdk3.OptinVideoActivity">
+
+<Button
+        android:id="@+id/bt_load"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="Load Optin Video"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bt_isLoaded"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"/>
+
+    <Button
+        android:id="@+id/bt_isLoaded"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="Is Optin Video Loaded ? "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_load"
+        app:layout_constraintBottom_toTopOf="@+id/bt_show" />
+
+    <Button
+        android:id="@+id/bt_show"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="Show Optin Video"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_isLoaded"
+        app:layout_constraintBottom_toTopOf="@+id/bt_newac" />
+
+    <Button
+        android:id="@+id/bt_newac"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="Go to Main Activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_show"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_load"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/ogury_logo_color" />
+
+
+
+</android.support.constraint.ConstraintLayout>
