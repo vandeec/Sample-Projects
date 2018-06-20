@@ -5,9 +5,9 @@ Before using any projects, go to your account on the [Admin Ogury Website](https
 ## Instructions
 
 #### [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Android/MyApplication)
-* Change your app_api_key in the `MainActivity.java` [here](https://github.com/Ogury/Sample-Projects/tree/master/Android/MyApplication/app/src/main/AndroidManifest.xml#L25)
-* Change your ad_unit_id in the `MainActivity.java` [here](https://github.com/Ogury/Sample-Projects/tree/master/Android/MyApplication/app/src/main/AndroidManifest.xml#L25)
-* Change your ad_unit_id_video in the `OptinVideoActivity.java` [here](https://github.com/Ogury/Sample-Projects/tree/master/Android/MyApplication/app/src/main/AndroidManifest.xml#L25)
+* Change your app_api_key in the `MainActivity.java` [here](https://github.com/Ogury/Sample-Projects/tree/master/Android/MyApplication/app/src/main/java/vdeub/com/myapplicationsdk3/MainActivity.java#L21)
+* Change your ad_unit_id in the `MainActivity.java` [here](https://github.com/Ogury/Sample-Projects/tree/master/Android/MyApplication/app/src/main/java/vdeub/com/myapplicationsdk3/MainActivity.java#L22)
+* Change your ad_unit_id_video in the `OptinVideoActivity.java` [here](https://github.com/Ogury/Sample-Projects/tree/master/Android/MyApplication/app/src/main/java/vdeub/com/myapplicationsdk3/OptinVideoActivity.java#L21)
 * Build your app
 
 ## Documentation
