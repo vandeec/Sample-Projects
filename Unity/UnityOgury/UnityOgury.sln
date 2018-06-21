@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityOgury", "Assembly-CSharp-firstpass.csproj", "{C927DD9D-6E5D-F2DF-4D2C-DCFA4AB91594}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityOgury", "Assembly-CSharp.csproj", "{9B0E1193-1A09-F73F-738E-4DC9098F8098}"
 EndProject
 Global
@@ -11,10 +9,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C927DD9D-6E5D-F2DF-4D2C-DCFA4AB91594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C927DD9D-6E5D-F2DF-4D2C-DCFA4AB91594}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C927DD9D-6E5D-F2DF-4D2C-DCFA4AB91594}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C927DD9D-6E5D-F2DF-4D2C-DCFA4AB91594}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9B0E1193-1A09-F73F-738E-4DC9098F8098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B0E1193-1A09-F73F-738E-4DC9098F8098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B0E1193-1A09-F73F-738E-4DC9098F8098}.Release|Any CPU.ActiveCfg = Release|Any CPU
