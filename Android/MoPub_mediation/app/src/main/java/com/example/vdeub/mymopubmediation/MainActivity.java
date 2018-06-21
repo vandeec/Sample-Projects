@@ -3,6 +3,7 @@ package com.example.vdeub.mymopubmediation;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -12,8 +13,17 @@ import android.widget.Toast;
 
 import io.presage.Presage;
 
+import com.mopub.common.MoPub;
+import com.mopub.common.SdkConfiguration;
+import com.mopub.common.SdkInitializationListener;
+import com.mopub.common.logging.MoPubLog;
+import com.mopub.common.privacy.ConsentDialogListener;
+import com.mopub.common.privacy.PersonalInfoManager;
 import com.mopub.mobileads.MoPubErrorCode;
 import com.mopub.mobileads.MoPubInterstitial;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity implements MoPubInterstitial.InterstitialAdListener {
@@ -30,6 +40,11 @@ public class MainActivity extends AppCompatActivity implements MoPubInterstitial
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             WebView.setWebContentsDebuggingEnabled(true);
         }
+
+        SdkConfiguration sdkConfiguration = new SdkConfiguration.Builder("1c72da79c32945de8bce05ecdbdd1527")
+                .build();
+
+        MoPub.initializeSdk(this, sdkConfiguration, initSdkListener());
         // Set your Mopub Interstitial Ad unit here
         mInterstitialAd = new MoPubInterstitial(this, "1c72da79c32945de8bce05ecdbdd1527");
         mInterstitialAd.setInterstitialAdListener(this);
@@ -89,6 +104,8 @@ public class MainActivity extends AppCompatActivity implements MoPubInterstitial
     public void onInterstitialFailed(MoPubInterstitial interstitial, MoPubErrorCode errorCode) {
         // The interstitial has failed to load. Inspect errorCode for additional information.
         // This is an excellent place to load more ads.
+        final String errorMessage = (errorCode != null) ? errorCode.toString() : "";
+        Log.i( "MoPub","Interstitial failed to load: " + errorMessage);
     }
 
     @Override
@@ -103,6 +120,32 @@ public class MainActivity extends AppCompatActivity implements MoPubInterstitial
     public void onInterstitialDismissed(MoPubInterstitial interstitial) {
         // The interstitial has being dismissed. Resume / load state accordingly.
         // This is an excellent place to load more ads.
+    }
+    private SdkInitializationListener initSdkListener() {
+        return new SdkInitializationListener() {
+            @Override
+            public void onInitializationFinished() {
+           /* MoPub SDK initialized.
+           Check if you should show the consent dialog here, and make your ad requests. */
+                final PersonalInfoManager mPersonalInfoManager = MoPub.getPersonalInformationManager();
+                if(mPersonalInfoManager.shouldShowConsentDialog()) {
+                    mPersonalInfoManager.loadConsentDialog( new ConsentDialogListener() {
+
+                        @Override
+                        public void onConsentDialogLoaded() {
+                            if (mPersonalInfoManager != null) {
+                                mPersonalInfoManager.showConsentDialog();
+                            }
+                        }
+
+                        @Override
+                        public void onConsentDialogLoadFailed(@NonNull MoPubErrorCode moPubErrorCode) {
+                            MoPubLog.i("Consent dialog failed to load.");
+                        }
+                    });
+                }
+            }
+        };
     }
 
 }

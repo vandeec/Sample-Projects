@@ -13,10 +13,17 @@ import android.widget.Toast;
 
 import com.mopub.common.MoPub;
 import com.mopub.common.MoPubReward;
+import com.mopub.common.SdkConfiguration;
+import com.mopub.common.SdkInitializationListener;
+import com.mopub.common.logging.MoPubLog;
+import com.mopub.common.privacy.ConsentDialogListener;
+import com.mopub.common.privacy.PersonalInfoManager;
 import com.mopub.mobileads.MoPubErrorCode;
 import com.mopub.mobileads.MoPubRewardedVideoListener;
 import com.mopub.mobileads.MoPubRewardedVideos;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 
@@ -29,8 +36,11 @@ public class ActivityOptinVideo extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video);
-        MoPubRewardedVideos.initializeRewardedVideo(this);
-        MoPub.onCreate(this);
+
+        SdkConfiguration sdkConfiguration = new SdkConfiguration.Builder("882144e4b0bd422c905263e5cbb971a0")
+                .build();
+
+        MoPub.initializeSdk(this, sdkConfiguration, initSdkListener());
 
         rewardedVideoListener = new MoPubRewardedVideoListener() {
             @Override
@@ -113,6 +123,33 @@ public class ActivityOptinVideo extends AppCompatActivity  {
     private void loadRewardedVideoAd() {
         // Set your Mopub Rewarded Video Ad unit here
         MoPubRewardedVideos.loadRewardedVideo("882144e4b0bd422c905263e5cbb971a0");
+    }
+
+    private SdkInitializationListener initSdkListener() {
+        return new SdkInitializationListener() {
+            @Override
+            public void onInitializationFinished() {
+           /* MoPub SDK initialized.
+           Check if you should show the consent dialog here, and make your ad requests. */
+                final PersonalInfoManager mPersonalInfoManager = MoPub.getPersonalInformationManager();
+                if(mPersonalInfoManager.shouldShowConsentDialog()) {
+                    mPersonalInfoManager.loadConsentDialog( new ConsentDialogListener() {
+
+                        @Override
+                        public void onConsentDialogLoaded() {
+                            if (mPersonalInfoManager != null) {
+                                mPersonalInfoManager.showConsentDialog();
+                            }
+                        }
+
+                        @Override
+                        public void onConsentDialogLoadFailed(@NonNull MoPubErrorCode moPubErrorCode) {
+                            MoPubLog.i("Consent dialog failed to load.");
+                        }
+                    });
+                }
+            }
+        };
     }
 
     @Override

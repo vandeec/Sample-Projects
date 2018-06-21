@@ -23,6 +23,7 @@ repositories {
     flatDir {
         dirs 'libs'
     }
+    maven { url "https://s3.amazonaws.com/moat-sdk-builds" }
 }
 
 dependencies {
@@ -32,10 +33,10 @@ dependencies {
     implementation(name: 'presage-moat-3.0.18-3.0.12', ext: 'aar')
     implementation(name: 'mopubevents-3.0.18', ext: 'aar')
     implementation 'com.google.android.gms:play-services-ads:15.0.0'
-    compile('com.mopub:mopub-sdk-interstitial:4.15.0@aar') {
+    compile('com.mopub:mopub-sdk-interstitial:5.0.0@aar') {
         transitive = true
     }
-    compile('com.mopub:mopub-sdk-rewardedvideo:4.15.0@aar') {
+    compile('com.mopub:mopub-sdk-rewardedvideo:5.0.0@aar') {
         transitive = true
     }
 }
