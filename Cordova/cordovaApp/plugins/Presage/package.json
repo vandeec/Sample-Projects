@@ -1,0 +1,25 @@
+{
+  "name": "Presage",
+  "version": "3.0.0",
+  "description": "Cordova Presage Plugin",
+  "cordova": {
+    "id": "Presage",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies":{"cordova-plugin-device":">1.0.0"},
+  "keywords": [
+    "cordova",
+    "presage",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=4.0.0"
+    }
+  ],
+  "author": "",
+  "license": "Apache 2.0"
+}

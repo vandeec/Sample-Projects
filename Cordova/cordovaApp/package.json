@@ -1,26 +1,26 @@
 {
-  "name": "My Ogury Cordova App",
-  "displayName": "My Ogury Cordova App",
-  "version": "1.0.0",
-  "description": "A sample Ogury App built in Cordova",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Loic Vdb",
-  "license": "Apache-2.0",
-  "dependencies": {
-    "cordova-android": "^6.3.0",
-    "cordova-browser": "^5.0.1",
-    "cordova-plugin-whitelist": "^1.3.3"
-  },
-  "cordova": {
-    "plugins": {
-      "cordova-plugin-whitelist": {}
+    "name": "My Ogury Cordova App",
+    "displayName": "My Ogury Cordova App",
+    "version": "1.0.3",
+    "description": "A sample Ogury App built in Cordova",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "platforms": [
-      "android",
-      "browser"
-    ]
-  }
+    "author": "Loic VdB",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "Presage": "file:../../../../../Downloads/presage-cordova-3.0.18-3.0.12",
+        "cordova-android": "^7.0.0",
+        "cordova-plugin-whitelist": "^1.3.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "Presage": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    }
 }

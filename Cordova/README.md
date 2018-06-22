@@ -5,8 +5,10 @@ Before using any projects, go to your account on the [Admin Ogury Website](https
 ## Instructions
 
 #### [Ogury Basic Integration](https://github.com/Ogury/Sample-Projects/tree/master/Cordova)
-* Change your Api_key in the `AndroidManifest.xml` [here]
-https://github.com/Ogury/Sample-Projects/blob/master/Cordova/cordovaApp/platforms/android/AndroidManifest.xml#L13
+* Change your app_api_key in the `index.js` [here]
+https://github.com/Ogury/Sample-Projects/blob/master/Cordova/cordovaApp/www/js/index.js#L35
+* Change your ad_unit_id in the `index.js` [here]
+https://github.com/Ogury/Sample-Projects/blob/master/Cordova/cordovaApp/www/js/index.js#L79
 
 ## Documentation
 

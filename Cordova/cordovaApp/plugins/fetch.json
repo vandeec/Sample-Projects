@@ -7,28 +7,12 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-extension": {
+  "Presage": {
     "source": {
-      "type": "registry",
-      "id": "cordova-plugin-extension"
+      "type": "local",
+      "path": "/Users/loicvdb/Desktop/Ogury-Github/Sample-Projects/Cordova/cordovaApp3/node_modules/Presage"
     },
-    "is_top_level": false,
-    "variables": {}
-  },
-  "cordova-plugin-facebookads": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-facebookads"
-    },
-    "is_top_level": false,
-    "variables": {}
-  },
-  "cordova-facebook-audnet-sdk": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-facebook-audnet-sdk"
-    },
-    "is_top_level": false,
+    "is_top_level": true,
     "variables": {}
   }
 }
