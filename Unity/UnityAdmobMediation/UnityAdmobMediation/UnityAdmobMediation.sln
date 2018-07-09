@@ -1,9 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAdmobMediation", "Assembly-CSharp.csproj", "{108D0C1C-FEE3-0263-56F4-A4EA6DE900C1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAdmobMediation", "Assembly-CSharp-firstpass.csproj", "{A1CBF2C7-3CF6-F010-1FB0-837FCDC756EA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAdmobMediation", "Assembly-CSharp-Editor.csproj", "{E7A1C7B5-C8C4-6067-D4AE-FAA6A7D285B5}"
 EndProject
@@ -17,10 +15,6 @@ Global
 		{108D0C1C-FEE3-0263-56F4-A4EA6DE900C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{108D0C1C-FEE3-0263-56F4-A4EA6DE900C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{108D0C1C-FEE3-0263-56F4-A4EA6DE900C1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A1CBF2C7-3CF6-F010-1FB0-837FCDC756EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1CBF2C7-3CF6-F010-1FB0-837FCDC756EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1CBF2C7-3CF6-F010-1FB0-837FCDC756EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1CBF2C7-3CF6-F010-1FB0-837FCDC756EA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7A1C7B5-C8C4-6067-D4AE-FAA6A7D285B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7A1C7B5-C8C4-6067-D4AE-FAA6A7D285B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7A1C7B5-C8C4-6067-D4AE-FAA6A7D285B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -28,23 +22,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-																																																GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
-		Policies = $0
-		$0.TextStylePolicy = $1
-		$1.inheritsSet = null
-		$1.scope = text/x-csharp
-		$0.CSharpFormattingPolicy = $2
-		$2.inheritsSet = Mono
-		$2.inheritsScope = text/x-csharp
-		$2.scope = text/x-csharp
-		$0.TextStylePolicy = $3
-		$3.FileWidth = 120
-		$3.TabWidth = 4
-		$3.EolMarker = Unix
-		$3.inheritsSet = Mono
-		$3.inheritsScope = text/plain
-		$3.scope = text/plain
 	EndGlobalSection
 EndGlobal

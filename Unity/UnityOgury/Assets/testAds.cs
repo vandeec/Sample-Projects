@@ -7,6 +7,7 @@ using PresageLib;
 public class testAds : MonoBehaviour {
 
 	PresageInterstitial PresageInterstitial;
+    public PresageEula presageEula;
 	// Use this for initialization
 	void Awake () {
 		#if UNITY_ANDROID
@@ -15,6 +16,9 @@ public class testAds : MonoBehaviour {
 		Presage.Initialize("270413");
 		PresageInterstitial = new PresageInterstitial("82022610-5a50-0135-7016-0242ac120003");
 		PresageInterstitial.SetPresageInterstitialCallback(presageInterstitialCallback);
+        presageEula = new PresageEula();
+        presageEula.SetIEulaHandler(new PresageEulaHandler());
+        presageEula.LaunchWithEula();
 		#endif
 	}
 
@@ -68,6 +72,24 @@ public class PresageInterstitialImpl : PresageInterstitial.PresageInterstitialCa
     }
     public void OnAdNotLoaded() {
         Debug.Log("no interstitial loaded");
+    }
+}
+
+public class PresageEulaHandler : PresageEula.IEulaHandler
+{
+    public void OnEulaClosed()
+    {
+        Debug.Log("Eula closed");
+    }
+
+    public void OnEulaFound()
+    {
+        Debug.Log("Eula found");
+    }
+
+    public void OnEulaNotFound()
+    {
+        Debug.Log("Eula not found");
     }
 }
 

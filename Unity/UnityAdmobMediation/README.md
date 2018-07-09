@@ -5,20 +5,20 @@ Before using any projects, go to your account on the [Admin Ogury Website](https
 ## Instructions
 
 #### [Ogury integration with Admob Mediation](https://github.com/Ogury/Sample-Projects/tree/master/Unity/UnityAdmobMediation)
-* Change your Api_key in the `AndroidManifest.xml` [here](https://github.com/Ogury/Sample-Projects/blob/master/Unity/UnityAdmobMediation/UnityAdmobMediation/Assets/Plugins/Android/AndroidManifest.xml#L34)
-* Change your Admob Interstitial ad_unit in the `Ad.cs` Script [here](https://github.com/Ogury/Sample-Projects/blob/master/Unity/UnityAdmobMediation/UnityAdmobMediation/Assets/Ad.cs#L17)
+* Change your Api_key in the `Ad.cs` [here](https://github.com/Ogury/Sample-Projects/blob/master/Unity/UnityAdmobMediation/UnityAdmobMediation/Assets/Ad.cs#27)
+* Change your Admob Interstitial ad_unit in the `Ad.cs` Script [here](https://github.com/Ogury/Sample-Projects/blob/master/Unity/UnityAdmobMediation/UnityAdmobMediation/Assets/Ad.cs#L18)
 * On your Admob Dashboard, add a new custom event for your Interstitial ad_unit.
-	* in Class Name set `co.ogury.admob.PresageInterstitialCustomEvent`
+	* in Class Name set `com.admob.mobileads.PresageInterstitialCustomEvent`
 	* in Parameter set your Interstitial ad_unit from Ogury dashboard [optional]
 
-	![alt text](https://s3-eu-west-1.amazonaws.com/ogury-cdn/Loicvdb-Github/unity_admob_interstitial.png)
+	![alt text](https://s3-eu-west-1.amazonaws.com/ogury-cdn/Loicvdb-Github/admob_interstitial3.png)
 
-* Change your Admob Rewarded Video ad_unit in the `Ad.cs` Script [here](https://github.com/Ogury/Sample-Projects/blob/master/Unity/UnityAdmobMediation/UnityAdmobMediation/Assets/Ad.cs#L18)
+* Change your Admob Rewarded Video ad_unit in the `Ad.cs` Script [here](https://github.com/Ogury/Sample-Projects/blob/master/Unity/UnityAdmobMediation/UnityAdmobMediation/Assets/Ad.cs#L19)
 * On your Admob Dashboard, add a new custom event for your Rewarded Video ad_unit.
-	* in Class Name set `co.ogury.admob.PresageRewardedVideoAdapter`
+	* in Class Name set `com.admob.mobileads.PresageOptinVideoCustomEvent`
 	* in Parameter set your Interstitial ad_unit from Ogury dashboard [required]
 
-	![alt text](https://s3-eu-west-1.amazonaws.com/ogury-cdn/Loicvdb-Github/unity_admob_rewarded_video.png)
+	![alt text](https://s3-eu-west-1.amazonaws.com/ogury-cdn/Loicvdb-Github/admob_rewarded_video3.png)
 
 ## Documentation
 

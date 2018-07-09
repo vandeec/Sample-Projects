@@ -1,7 +1,7 @@
 <aars>
   <explodeData>
     <aar>play-services-ads-11.0.4</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/play-services-ads-11.0.4.aar</path>
@@ -12,7 +12,7 @@
   </explodeData>
   <explodeData>
     <aar>play-services-ads-lite-11.0.4</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/play-services-ads-lite-11.0.4.aar</path>
@@ -23,7 +23,7 @@
   </explodeData>
   <explodeData>
     <aar>play-services-base-11.0.4</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/play-services-base-11.0.4.aar</path>
@@ -34,7 +34,7 @@
   </explodeData>
   <explodeData>
     <aar>play-services-basement-11.0.4</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/play-services-basement-11.0.4.aar</path>
@@ -45,7 +45,7 @@
   </explodeData>
   <explodeData>
     <aar>play-services-clearcut-11.0.4</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/play-services-clearcut-11.0.4.aar</path>
@@ -56,7 +56,7 @@
   </explodeData>
   <explodeData>
     <aar>play-services-gass-11.0.4</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/play-services-gass-11.0.4.aar</path>
@@ -67,7 +67,7 @@
   </explodeData>
   <explodeData>
     <aar>play-services-safetynet-11.0.4</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/play-services-safetynet-11.0.4.aar</path>
@@ -78,7 +78,7 @@
   </explodeData>
   <explodeData>
     <aar>play-services-tasks-11.0.4</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/play-services-tasks-11.0.4.aar</path>
@@ -89,7 +89,7 @@
   </explodeData>
   <explodeData>
     <aar>support-annotations-25.2.0</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/support-annotations-25.2.0.jar</path>
@@ -100,7 +100,7 @@
   </explodeData>
   <explodeData>
     <aar>support-compat-25.2.0</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/support-compat-25.2.0.aar</path>
@@ -111,7 +111,7 @@
   </explodeData>
   <explodeData>
     <aar>support-core-ui-25.2.0</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/support-core-ui-25.2.0.aar</path>
@@ -122,7 +122,7 @@
   </explodeData>
   <explodeData>
     <aar>support-core-utils-25.2.0</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/support-core-utils-25.2.0.aar</path>
@@ -133,7 +133,7 @@
   </explodeData>
   <explodeData>
     <aar>support-fragment-25.2.0</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/support-fragment-25.2.0.aar</path>
@@ -144,7 +144,7 @@
   </explodeData>
   <explodeData>
     <aar>support-media-compat-25.2.0</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/support-media-compat-25.2.0.aar</path>
@@ -155,7 +155,7 @@
   </explodeData>
   <explodeData>
     <aar>support-v4-25.2.0</aar>
-    <modificationTime>2018-01-31T17:27:47.0000000+00:00</modificationTime>
+    <modificationTime>2018-06-20T14:29:29.0000000+01:00</modificationTime>
     <explode>false</explode>
     <bundleId>ogury.vdeub.unity.admob</bundleId>
     <path>Assets/Plugins/Android/support-v4-25.2.0.aar</path>

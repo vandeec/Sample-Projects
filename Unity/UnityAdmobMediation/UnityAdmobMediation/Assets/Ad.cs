@@ -3,6 +3,7 @@ using UnityEngine;
 using GoogleMobileAds;
 using GoogleMobileAds.Api;
 using UnityEngine.UI;
+using PresageLib;
 
 public class Ad : MonoBehaviour {
 	
@@ -14,8 +15,8 @@ public class Ad : MonoBehaviour {
 	public Text interstitialStatus;
 	public Text optinVideoStatus;
 	
-	string adUnitId = "ca-app-pub-8953991002741575/5300848243";
-	string rewardedVideoAdUnitId = "ca-app-pub-8953991002741575/2045910151";
+    string adUnitId = "ca-app-pub-8953991002741575/9008443366";
+    string rewardedVideoAdUnitId = "ca-app-pub-8953991002741575/3784036845";
 	
 	// Use this for initialization
 	void Start () {
@@ -23,7 +24,7 @@ public class Ad : MonoBehaviour {
 		Screen.orientation = ScreenOrientation.AutoRotation;
 		#if UNITY_ANDROID
 		// Initializing Presage
-			Presage.Initialize();
+        Presage.Initialize("270413");
 		#endif
 		interstitialStatus = GameObject.Find("InterstitialStatus").GetComponent<Text>();
 		optinVideoStatus = GameObject.Find("OptinVideoStatus").GetComponent<Text>();
