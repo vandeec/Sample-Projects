@@ -63,11 +63,11 @@
   <ItemGroup>
     <Compile Include="Assets\GoogleMobileAds\Editor\AdMobDependencies.cs" />
     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver.txt" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/loicvdb/Desktop/Ogury-Github/Sample-Projects/Unity/UnityAdmobMediation/UnityAdmobMediation/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/loicvdb/Desktop/Ogury-Github/Sample-Projects/Unity/UnityAdmobMediation/UnityAdmobMediation/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>/Users/loicvdb/Desktop/Ogury-Github/Sample-Projects/Unity/UnityAdmobMediation/UnityAdmobMediation/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -303,6 +303,9 @@
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
       <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="PresageLib">
+      <HintPath>/Users/loicvdb/Desktop/Ogury-Github/Sample-Projects/Unity/UnityAdmobMediation/UnityAdmobMediation/Assets/PresageLib.dll</HintPath>
+    </Reference>
     <Reference Include="Google.JarResolver">
       <HintPath>/Users/loicvdb/Desktop/Ogury-Github/Sample-Projects/Unity/UnityAdmobMediation/UnityAdmobMediation/Assets/PlayServicesResolver/Editor/Google.JarResolver.dll</HintPath>
     </Reference>
@@ -329,9 +332,6 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
-    </Reference>
-    <Reference Include="PresageLib">
-      <HintPath>/Users/loicvdb/Desktop/Ogury-Github/Sample-Projects/Unity/UnityAdmobMediation/UnityAdmobMediation/Assets/PresageLib.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>

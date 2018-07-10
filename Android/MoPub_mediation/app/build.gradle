@@ -32,6 +32,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation(name: 'presage-moat-3.0.18-3.0.12', ext: 'aar')
     implementation(name: 'mopubevents-3.0.18', ext: 'aar')
+    implementation(name: 'mopubevents-3.0.18-1', ext: 'aar')
     implementation 'com.google.android.gms:play-services-ads:15.0.0'
     compile('com.mopub:mopub-sdk-interstitial:5.0.0@aar') {
         transitive = true

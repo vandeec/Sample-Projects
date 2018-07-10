@@ -17,7 +17,7 @@ Before using any projects, go to your account on the [Admin Ogury Website](https
 * Change your Admob Rewarded Video ad_unit in the `ActivityOptinVideo` [here](https://github.com/Ogury/Sample-Projects/blob/master/Android/Admob_mediation/app/src/main/java/com/example/vdeub/myadmobmediation/ActivityOptinVideo.java#L75)
 * On your Admob Dashboard, add a new custom event for your Rewarded Video ad_unit.
 	* in Class Name set `com.admob.mobileads.PresageOptinVideoCustomEvent`
-	* in Parameter set your Interstitial ad_unit from Ogury dashboard [required]
+	* in Parameter set your Optin Video ad_unit from Ogury dashboard [required]
 
 	![alt text](https://s3-eu-west-1.amazonaws.com/ogury-cdn/Loicvdb-Github/admob_rewarded_video3.png)
 

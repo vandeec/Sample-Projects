@@ -94,11 +94,11 @@
     <Compile Include="Assets\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
     <None Include="Assets\PlayServicesResolver\proguard-messaging-workaround.txt" />
     <None Include="Assets\PlayServicesResolver\proguard-unity.txt" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/loicvdb/Desktop/Ogury-Github/Sample-Projects/Unity/UnityAdmobMediation/UnityAdmobMediation/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/loicvdb/Desktop/Ogury-Github/Sample-Projects/Unity/UnityAdmobMediation/UnityAdmobMediation/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>/Users/loicvdb/Desktop/Ogury-Github/Sample-Projects/Unity/UnityAdmobMediation/UnityAdmobMediation/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -289,6 +289,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="PresageLib">
+      <HintPath>/Users/loicvdb/Desktop/Ogury-Github/Sample-Projects/Unity/UnityAdmobMediation/UnityAdmobMediation/Assets/PresageLib.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/loicvdb/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -297,9 +300,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>/Users/loicvdb/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="PresageLib">
-      <HintPath>/Users/loicvdb/Desktop/Ogury-Github/Sample-Projects/Unity/UnityAdmobMediation/UnityAdmobMediation/Assets/PresageLib.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
